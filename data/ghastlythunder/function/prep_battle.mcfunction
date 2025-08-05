@@ -1,5 +1,6 @@
 # comment
 
+say (placeholder) A new match has started! Get ready! Players not on a ghast will be spectating.
 clear @a minecraft:happy_ghast_spawn_egg
 execute as @e[tag=gt_battle] run data merge entity @s {NoAI:0}
 schedule function ghastlythunder:start_match 20s
